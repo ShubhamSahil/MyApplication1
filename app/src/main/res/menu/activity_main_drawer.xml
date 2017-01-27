@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="About us" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Cont" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Health Benefits" />
+        <item
+            android:id="@+id/coupon"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Coupon" />
+
+        <item
+            android:id="@+id/wishlist"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Wishlist" />
+
+        <item
+            android:id="@+id/history"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Order History" />
+
+
+        <item
+            android:id="@+id/store"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Store" />
+
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Resister" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="login" />
+
+            <item
+                android:id="@+id/f_p"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Forgot Password" />
+
+            <item
+                android:id="@+id/news_lettersubscribe"
+                android:icon="@drawable/ic_menu_send"
+                android:title="News letter subscribe" />
+
+        </menu>
+    </item>
+
+</menu>
